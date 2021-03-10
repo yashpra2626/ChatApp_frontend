@@ -1,0 +1,65 @@
+.container {
+  border: 2px solid #910303;
+  background-color: lightpink;
+  border-radius: 5px 20px 5px;
+  padding: 10px;
+  margin: 10px 0 ;
+  margin-left: 40%;
+  text-align-last: right;
+}
+
+
+/* Darker chat container */
+.darker {
+  border-color: rgb(20, 61, 12);
+  background-color: rgb(21, 170, 83);
+  text-align-last: left;
+  margin-left: 0rem;
+  margin-right: 40%;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+.place-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+}
